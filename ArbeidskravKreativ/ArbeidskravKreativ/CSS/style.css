@@ -1,0 +1,88 @@
+body{
+    background-image: url(/images/Joker.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h1{
+    color: green;
+    text-decoration: underline;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+p{
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    list-style-position: inside;
+    
+    
+} 
+
+ul li {
+    display: inline-block ;
+    margin: 30px;
+}
+
+ul li::before{
+    content: '';
+    position: absolute; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.8s all;
+    padding: 5px 20px;
+    border: 1px solid #fff; 
+}
+
+ul li a:hover{
+    color: red;
+}
+
+
+img{
+    position: absolute;
+    padding: inherit;
+    border: 20px solid; 
+} 
+
+a{
+    float: left;
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    text-decoration:none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+
+dl li{
+    display: inline-block;
+    margin: 20px
+}
+
+dl li::before{
+    content: '';
+    position: absolute;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
